@@ -1,6 +1,15 @@
 # Backbone OpenWeatherMap
 Simple Backbone library to connect OpenWeatherMap's API
 
+## Installation
+
+### bower
+
+```
+bower install backbone.openweathermap
+```
+
+
 
 ## Example
 
