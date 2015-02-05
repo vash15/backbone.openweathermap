@@ -1,5 +1,5 @@
 # Backbone OpenWeatherMap
-Simple Backbone library to connect OpenWeatherMap's API
+Simple Backbone library to connect [OpenWeatherMap's API](http://openweathermap.org/current)
 
 ## Installation
 
