@@ -9,11 +9,26 @@ Simple Backbone library to connect OpenWeatherMap's API
 bower install backbone.openweathermap
 ```
 
+## Methods
 
+### setUnitsFormat( units )
+Set the measuring unit
 
-## Example
+- **units** is the unit of measurement. It may be *internal*, *metric*, *imperial*. Default is *metric*.
 
-```js
+### fetchFromCity( cityName, [options])
+Asks the weather information from the city name.
+
+- **cityName** is the name of city. (Ex. New York)
+- **options** is [Backbone options](http://backbonejs.org/#Model-fetch).
+
+```javascript
+  owm.fetchFromCity("New York");
+```
+
+## Full example
+
+```javascript
 
 var OpenWeatherMap = require("OpenWeatherMap");
 
